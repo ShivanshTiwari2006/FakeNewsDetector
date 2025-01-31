@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkfakenewsdetector=self.webpackChunkfakenewsdetector||[]).push([[900],{900:(e,o,n)=>{n.r(o),n.d(o,{default:()=>r});n(43);var t=n(250),s=n(579);const r=()=>(0,s.jsxs)("div",{style:{textAlign:"center",marginTop:"50px"},children:[(0,s.jsx)("h1",{children:"404 - Page Not Found"}),(0,s.jsx)("p",{children:"Sorry, the page you are looking for does not exist."}),(0,s.jsx)(t.N_,{to:"/login",children:"Go to Login"}),(0,s.jsx)("br",{}),(0,s.jsx)(t.N_,{to:"/signup",children:"Go to Signup"})]})}}]);
+//# sourceMappingURL=900.f2e8cb6f.chunk.js.map

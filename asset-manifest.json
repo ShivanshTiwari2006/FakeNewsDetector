@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/FakeNewsDetector/static/css/main.17fb5c04.css",
+    "main.js": "/FakeNewsDetector/static/js/main.16303aa7.js",
+    "static/css/190.89bc4176.chunk.css": "/FakeNewsDetector/static/css/190.89bc4176.chunk.css",
+    "static/js/190.57a423ca.chunk.js": "/FakeNewsDetector/static/js/190.57a423ca.chunk.js",
+    "static/js/847.a2c626fa.chunk.js": "/FakeNewsDetector/static/js/847.a2c626fa.chunk.js",
+    "static/js/900.f2e8cb6f.chunk.js": "/FakeNewsDetector/static/js/900.f2e8cb6f.chunk.js",
+    "static/css/12.eeeac612.chunk.css": "/FakeNewsDetector/static/css/12.eeeac612.chunk.css",
+    "static/js/12.20240257.chunk.js": "/FakeNewsDetector/static/js/12.20240257.chunk.js",
+    "static/js/488.0646986e.chunk.js": "/FakeNewsDetector/static/js/488.0646986e.chunk.js",
+    "index.html": "/FakeNewsDetector/index.html",
+    "main.17fb5c04.css.map": "/FakeNewsDetector/static/css/main.17fb5c04.css.map",
+    "main.16303aa7.js.map": "/FakeNewsDetector/static/js/main.16303aa7.js.map",
+    "190.89bc4176.chunk.css.map": "/FakeNewsDetector/static/css/190.89bc4176.chunk.css.map",
+    "190.57a423ca.chunk.js.map": "/FakeNewsDetector/static/js/190.57a423ca.chunk.js.map",
+    "847.a2c626fa.chunk.js.map": "/FakeNewsDetector/static/js/847.a2c626fa.chunk.js.map",
+    "900.f2e8cb6f.chunk.js.map": "/FakeNewsDetector/static/js/900.f2e8cb6f.chunk.js.map",
+    "12.eeeac612.chunk.css.map": "/FakeNewsDetector/static/css/12.eeeac612.chunk.css.map",
+    "12.20240257.chunk.js.map": "/FakeNewsDetector/static/js/12.20240257.chunk.js.map",
+    "488.0646986e.chunk.js.map": "/FakeNewsDetector/static/js/488.0646986e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.17fb5c04.css",
+    "static/js/main.16303aa7.js"
+  ]
+}
