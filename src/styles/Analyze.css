@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #1e1e2e;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding: 20px;
+  overflow-x: hidden;
+}
+
+/* Container */
+.analyze-container {
+  text-align: center;
+  padding: 40px 20px;
+  max-width: 900px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+  margin-top: 60px;
+}
+
+/* Title */
+.analyze-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #ffcc00;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Description */
+.analyze-description {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  opacity: 0.8;
+}
+
+/* Textarea */
+.analyze-input {
+  width: 90%;
+  max-width: 750px;
+  height: 120px;
+  padding: 12px;
+  font-size: 1.1rem;
+  border: 2px solid #ffcc00;
+  border-radius: 10px;
+  background: #2e2e2e;
+  color: white;
+  resize: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.analyze-input:focus {
+  outline: none;
+  border-color: #ff416c;
+  box-shadow: 0px 0px 8px rgba(255, 65, 108, 0.6);
+}
+
+/* Button */
+.analyze-button {
+  margin-top: 20px;
+  padding: 12px 30px;
+  font-size: 1.1rem;
+  background: linear-gradient(90deg, #ff4b2b, #ff416c);
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.analyze-button:hover {
+  background: linear-gradient(90deg, #ff416c, #ff4b2b);
+  transform: scale(1.1);
+}
+
+/* Error Message */
+.error-message {
+  color: #ff4b2b;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+/* Horizontal Card Layout for Result & Fact Check */
+.results-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;  /* Adding a gap between the cards */
+  margin-top: 30px;
+  flex-wrap: wrap;  /* Ensures that on small screens, cards will stack vertically */
+}
+
+/* Card Box */
+.result-box, .fact-check-box {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  flex: 1;
+  min-width: 300px; /* Ensures cards have a minimum width */
+  height: 400px;  /* Set height for consistent card sizing */
+  overflow-y: auto;  /* Enables vertical scrolling */
+  margin-bottom: 20px;  /* Adds bottom margin to give space between cards on small screens */
+}
+
+/* Result Title */
+.result-title {
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.verified-text {
+  color: #4caf50;
+}
+
+.unverified-text {
+  color: #ff4b2b;
+  font-weight: bold;
+}
+
+/* Fact Check Title */
+.fact-check-title {
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.fact-check-list {
+  list-style: none;
+  padding: 0;
+}
+
+.fact-check-list li {
+  margin-bottom: 15px;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+
+  .analyze-container {
+    padding: 25px 15px;
+    margin-top: 20px;
+  }
+
+  .analyze-title {
+    font-size: 2.2rem;
+  }
+
+  .analyze-description {
+    font-size: 1rem;
+  }
+
+  .analyze-input {
+    font-size: 1rem;
+  }
+
+  .analyze-button {
+    font-size: 1rem;
+    padding: 10px 25px;
+  }
+
+  .results-container {
+    flex-direction: column;  /* Stack cards vertically on small screens */
+    gap: 20px;  /* Reduces gap between stacked cards */
+  }
+
+  .result-box, .fact-check-box {
+    height: auto;  /* Remove fixed height on small screens */
+    padding: 20px;
+  }
+
+  .fact-check-title,
+  .result-title {
+    font-size: 1.4rem;
+  }
+
+  .fact-check-list li {
+    font-size: 1rem;
+  }
+}
